@@ -36,6 +36,10 @@ public class Add extends AppCompatActivity {
         Intent galleryintent = new Intent(Intent.ACTION_GET_CONTENT);
         galleryintent.setType("Image/*");
         startActivityForResult(galleryintent,galley);
+
+        int[] mArray = new int[2];
+        mArray[0] = R.drawable.grocery;
+        mArray[1] = R.drawable.back;
     }
     protected void onActivityResult(int requestcode, int resultcode, Intent data){
         super.onActivityResult(requestcode, resultcode, data);
