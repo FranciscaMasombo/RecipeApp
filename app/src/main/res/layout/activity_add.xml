@@ -12,18 +12,18 @@
     tools:context=".Add"
     >
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/rName"
-        android:hint="Enter the name of the recipe"
-        />
-
     <ImageView
         android:id="@+id/foodimage"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         app:srcCompat="@drawable/theone" />
+
+    <EditText
+        android:id="@+id/rName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the name of the recipe" />
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

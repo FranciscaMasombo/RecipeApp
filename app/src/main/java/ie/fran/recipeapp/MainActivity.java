@@ -89,6 +89,11 @@ public class MainActivity extends AppCompatActivity
 
             Intent intent2 = new Intent(MainActivity.this, Add.class);
             startActivity(intent2);
+        }
+        else if (id == R.id.add) {
+
+            Intent intent2 = new Intent(MainActivity.this, Add.class);
+            startActivity(intent2);
         } else if (id == R.id.nav_list) {
 
         }
@@ -97,4 +102,7 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+
 }
