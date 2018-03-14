@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -90,12 +91,14 @@ public class MainActivity extends AppCompatActivity
             Intent intent2 = new Intent(MainActivity.this, Add.class);
             startActivity(intent2);
         }
-        else if (id == R.id.add) {
+        else if (id == R.id.fab) {
 
             Intent intent2 = new Intent(MainActivity.this, Add.class);
             startActivity(intent2);
-        } else if (id == R.id.nav_list) {
 
+        } else if (id == R.id.nav_list) {
+Intent intent = new Intent(MainActivity.this, RecyclerView.class);
+        startActivity(intent);
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);

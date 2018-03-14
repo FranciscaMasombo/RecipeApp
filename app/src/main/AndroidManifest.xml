@@ -24,7 +24,7 @@
         </activity>
         <activity android:name=".Add" />
         <activity android:name=".Recipes" />
-        <activity android:name=".RecipeListView"></activity>
+        <activity android:name=".RecipeListView" />
     </application>
 
 </manifest>
